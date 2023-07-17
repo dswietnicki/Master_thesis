@@ -1,0 +1,25 @@
+.buttons-task {
+  display: flex;
+  // justify-content: space-between;
+  width: 550px;
+  margin-bottom: 35px;
+}
+
+.task-details {
+  .details {
+    margin-bottom: 10px;
+  }
+}
+
+.task-view-container {
+  display:flex;
+  flex-direction: row;
+
+  .task-view-column {
+    margin-right: 35px;
+  }
+}
+
+.button-container {
+  margin-right: 15px;
+}

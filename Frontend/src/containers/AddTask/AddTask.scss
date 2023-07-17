@@ -1,0 +1,21 @@
+.project-form {
+  display: flex;
+
+  textarea {
+    resize: none;
+  }
+
+  .project-form-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-form-column-second {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .task-asignee {
+      margin-bottom: 35px;
+    }
+  }
+}

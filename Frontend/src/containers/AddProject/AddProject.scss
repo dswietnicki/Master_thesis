@@ -1,0 +1,26 @@
+.project-form {
+  display: flex;
+
+  textarea {
+    resize: none;
+  }
+
+  .project-form-column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .project-form {
+    flex-direction: column;
+
+  }
+
+  .project-form-column {
+    width: 305px;
+    margin-bottom: 10px;
+  }
+}

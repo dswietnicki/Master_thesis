@@ -1,0 +1,31 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .projects-options {
+    width: 100%;
+    .searchInput {
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+  }
+
+  .projects-table {
+    width: 100%;
+  }
+
+  .project-form {
+    .project-form-column {
+      
+      .name-input {
+        margin-bottom: 5px;
+      }
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+  }
+}

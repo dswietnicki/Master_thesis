@@ -1,0 +1,19 @@
+.comment {
+  margin-top: 15px;
+  width: 570px;
+  min-height: 100px;
+  border: 1px solid silver;
+  padding: 10px;
+  border-radius: 5px;
+
+  .commentHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .divider {
+    width: 100%;
+    border-top: 1px solid silver;
+    margin-bottom: 10px;
+  }
+}

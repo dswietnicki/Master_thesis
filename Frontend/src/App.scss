@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.components-container {
+  margin: 25px 100px 0 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .components-container {
+    margin: 10px;
+  }
+}
